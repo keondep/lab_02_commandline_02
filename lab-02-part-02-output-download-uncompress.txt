@@ -174,7 +174,7 @@ unzip mtec1002.zip
 Copy and paste the output below.
 ----------
 
-
+book logs web
 
 ==========
 We're going to mess around with archiving and compressing files.  We'll make a directory with a file in it... archive and compress it.... and uncompress it elsewhere.
@@ -185,6 +185,14 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 Copy and paste the output below.
 ----------
 
+Adlm			MPLABXProjects		Things
+Adobe			Movies			ipe.properties
+Applications		Music			isus
+Colors			New Unity Project	mtec1002
+Desktop			Pictures		mtech-lab-02-zip
+Documents		Public			pymel.log
+Downloads		QLData			stuff
+Library			TACO			xgen
 
 
 ==========
@@ -196,7 +204,7 @@ List the files in the directory you're currently in (which should be stuff).
 
 Copy and paste the output below.
 ----------
-
+hello.txt
 
 
 ==========
@@ -209,7 +217,15 @@ List the files in the directory you're currently in (which should be home).
 Copy and paste the output below.
 ----------
 
-
+Adlm			Movies			isus
+Adobe			Music			mtec1002
+Applications		New Unity Project	mtech-lab-02-zip
+Colors			Pictures		pymel.log
+Desktop			Public			stuff
+Documents		QLData			stuff.tar
+Downloads		TACO			xgen
+Library			Things
+MPLABXProjects		ipe.properties
 
 ==========
 19. Go up one directory back into your home directory.  Run the following commands exactly to create a compressed archive of the stuff folder.
@@ -218,7 +234,8 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
-
+a stuff
+a stuff/hello.txt
 
 
 ==========
@@ -228,7 +245,15 @@ Copy and paste the output below. (It should contain stuff.tar)
 ----------
 
 
-
+Adlm			Movies			isus
+Adobe			Music			mtec1002
+Applications		New Unity Project	mtech-lab-02-zip
+Colors			Pictures		pymel.log
+Desktop			Public			stuff
+Documents		QLData			stuff.tar
+Downloads		TACO			xgen
+Library			Things
+MPLABXProjects		ipe.properties
 ==========
 21. Now compress it!  Type:
 
