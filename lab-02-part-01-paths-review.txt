@@ -106,4 +106,5 @@ cd more-stuff
 mkdir current
 c - hostname
 d -mkdir -p desktop/more-stuff/local
-e - is -alt desktop/more-stuff
+e - is -alt 
+f - mkdir
