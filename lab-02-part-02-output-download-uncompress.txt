@@ -275,7 +275,7 @@ Change your directory to mtec1002-lab-02.
 
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
 ----------
-
+books     logs   stuff.tar.gz    web
 
 ==========
 23. You should be in the lab directory.  Let's uncompress the file.
